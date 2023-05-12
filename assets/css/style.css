@@ -1,0 +1,293 @@
+body {
+  font-family: sans serif;
+}
+
+.right-side {
+  background-color: black;
+  height: 100%;
+}
+
+.heading-css {
+  /* color: red; */
+  background-image: linear-gradient(to right, orange, red);
+  padding-top: 100px;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.input-content-css {
+  width: 33rem;
+  background-color: #201f21;
+  color: gray;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+.input-content-css:hover {
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login-css {
+  width: 33rem;
+}
+
+.createone-css {
+  text-decoration: none;
+}
+
+/* ......................................................... */
+.createpage-rightsection {
+  background-color: black;
+  height: 100%;
+}
+
+ul li {
+  list-style: none;
+  background-color: #201f21;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #201f21;
+  font-size: 13px;
+}
+
+ul li:hover {
+  background-color: black;
+  /* color: #FFC107; */
+  border: 1px solid #ffc107;
+}
+
+ul li a:hover {
+  /* background-color: black; */
+  color: #ffc107;
+  /* border: 1px solid #FFC107; */
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.signup-css {
+  width: 37rem;
+  padding: 4px 10px;
+  background-color: #201f21;
+  color: white;
+}
+
+.signup-css:hover {
+  background-color: white;
+  /* color: red; */
+}
+
+.address-css {
+  margin-right: 78%;
+  margin-top: 8px;
+  color: #777679;
+}
+
+.signup-css-small {
+  width: 18rem;
+  padding: 4px 10px;
+  background-color: #201f21;
+  color: white;
+  margin: 6px;
+  display: inline-block;
+}
+
+.signup-css-small:hover {
+  background-color: white;
+  /* color: red; */
+}
+
+.country-css {
+  width: 18rem;
+  padding: 6px 7px;
+  background-color: #201f21;
+  color: #777679;
+
+  margin-left: 41px;
+}
+
+.country-css:hover {
+  background-color: white;
+  color: black;
+}
+
+.musicselction-css {
+  margin-left: 47px;
+  margin-top: 7px;
+  color: #777679;
+  font-weight: 600;
+  padding: 6px 7px;
+}
+
+#music {
+  width: 37rem;
+  padding: 6px 7px;
+  background-color: #201f21;
+  color: #777679;
+}
+
+#music:hover {
+  background-color: white;
+  color: black;
+}
+
+.signupbutton-css {
+  width: 37rem;
+}
+
+.bg-pickupplan {
+  background-color: #171814;
+  width: 23rem;
+}
+
+.pickupplan-css {
+  color: #b3914d;
+}
+
+.para-section-css {
+  color: #b3914d;
+}
+.getstarted-css {
+  padding: 8px 100px;
+}
+
+.Formargin-css {
+  margin-top: 10%;
+}
+.youarelogin-css {
+  height: 100vh;
+}
+.loginimg-css {
+  padding-top: 15%;
+  margin-left: 10%;
+}
+
+/* ///////////////// END STYLING ///////////////////// */
+/* ///////////////////  START MEDIA QUUERY FOR MOBILE //////////////// */
+@media only screen and (max-width: 767px) {
+  .input-content-css {
+    width: 18rem;
+  }
+  .login-css {
+    width: 18rem;
+  }
+  ul li {
+    padding: 6px 3px;
+
+    font-size: 9px;
+
+    margin-left: -30px;
+  }
+
+  .signup-css {
+    width: 18rem;
+  }
+  .country-css {
+    margin-left: 50px;
+  }
+  #music {
+    width: 18rem;
+  }
+  .musicselction-css {
+    margin-left: 43px;
+  }
+  .signupbutton-css {
+    width: 18rem;
+  }
+  .address-css {
+    margin-right: 62%;
+  }
+  .loginimg-css {
+    padding-top: 50%;
+    margin-left: 18%;
+  }
+}
+
+/* ...................... CLOSE MOBILE MEDIA QUERY ........................... */
+
+/* ...................... START TAB MEDIA QUERY ................................... */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .address-css {
+    margin-right: 64%;
+  }
+  .country-css {
+    margin-left: 90px;
+  }
+  .musicselction-css {
+    margin-left: 85px;
+  }
+
+  ul li {
+    font-size: 19px;
+    margin-left: -22px;
+  }
+}
+
+/* ...........................CLOSE  MEDIA QUERY FOR tab/medium .............................. */
+
+/* ........................... MEDIA QUERY FOR LARGE SCREEN .............................. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .signup-css {
+    width: 27rem;
+  }
+
+  .address-css {
+    margin-right: 74%;
+  }
+  .signup-css-small {
+    margin-right: 147px;
+  }
+  #music {
+    width: 27rem;
+  }
+  .signupbutton-css {
+    width: 27rem;
+  }
+  ul li {
+    padding: 8px 4px;
+
+    font-size: 14px;
+    margin-left: -26px;
+  }
+  .input-content-css {
+    width: 27rem;
+  }
+  .login-css {
+    width: 27rem;
+  }
+  .country-css {
+    margin-left: 43px;
+  }
+}
+/* ...........................CLOSE  MEDIA QUERY FOR LARGE .............................. */
+
+/* ........................... MEDIA QUERY FOR X-LARGE SCREEN .............................. */
+
+@media only screen and (min-width: 1200px) {
+  .country-css {
+    margin-left: 42px;
+  }
+  .address-css {
+    margin-right: 77%;
+  }
+  .musicselction-css {
+    margin-left: 40px;
+  }
+  ul li {
+    margin-left: -28px;
+  }
+}
